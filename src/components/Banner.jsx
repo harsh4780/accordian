@@ -3,9 +3,9 @@ import bannerimage from "../assets/illustration.png";
 
 function Banner() {
   return (
-    <div className="w-full border bg-gray-200">
+    <div className="container mx-auto border bg-gray-200">
       <div
-        className="  mx-auto
+        className="mx-auto
         grid md:grid-cols-2 px-5 sm:px-10"
       >
         {/* Left Section */}
@@ -21,7 +21,7 @@ function Banner() {
             Register
           </button>
         </div>
-
+          
         {/* Right section */}
         <div className="mt-8 md:mt-12 md:ml-0">
           <img src={bannerimage} className="w-full md:w-96 h-96 object-contain" alt="" />

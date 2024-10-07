@@ -8,7 +8,11 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '1680px',
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()]
