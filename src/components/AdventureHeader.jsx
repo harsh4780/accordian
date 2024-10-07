@@ -121,6 +121,8 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
+
+
 export default function AdventureHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
